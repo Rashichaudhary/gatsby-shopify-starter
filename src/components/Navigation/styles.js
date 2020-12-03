@@ -12,7 +12,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 1.45rem;
+  padding: 1.42rem;
   margin: 0 auto;
   max-width: 960px;
 `
@@ -20,21 +20,21 @@ export const Container = styled.div`
 export const MenuLink = styled(Link)`
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: bold;
 
   @media (max-width: ${breakpoints.s}px) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 `
 
 export const CartCounter = styled.span`
   background-color: white;
   color: #663399;
-  border-radius: 20px;
-  padding: 0 10px;
-  font-size: 1.2rem;
+  border-radius: 21px;
+  padding: 0 11px;
+  font-size: 1.1rem;
   float: right;
-  margin: -10px;
-  z-index: 20;
+  margin: -10.3px;
+  z-index: 21;
 `
